@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <div class="cart-info">
+            <span>Items in Cart: <span id="cart-count">0</span></span>
+        </div>
+    </header>
+    <main>
+        <section id="product-list" class="product-list">
+            
+            <!--for Static
+            <div class="product">
+                <img src="image/product1.jpg" alt="Product 1">
+                <h3>Potato</h3>
+                <p>Fresh potato from Rangpur. Directly collected from farmers. 100% organic no chemical are used. Also paid a justified ammount to farmer. No third party were involved.</p>
+                <p>$10.99</p>
+                <button onclick="addToCart(1, 'Product 1', 10.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="image/product2.jpg" alt="Product 2">
+                <h3>Samsung S24 Ultra</h3>
+                <p>This mobile phone is Singapur varient. Box and all nessesary paper will hand over to the customer.</p>
+                <p>$20.99</p>
+                <button onclick="addToCart(2, 'Product 2', 20.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="image/product3.jpg" alt="Product 3">
+                <h3>Combo package</h3>
+                <p>Two peice of high quality shirt and one paire of letaher shoes. It is a lim,ited time offer. Hurry up and grab the offer.</p>
+                <p>$15.49</p>
+                <button onclick="addToCart(3, 'Product 3', 15.49)">Add to Cart</button>
+            </div> -->
+            
+
+            <!--Use local server to avoid CORS error-->
+
+
+        </section>
+        <section id="cart" class="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+            </div>
+            <div class="cart-summary">
+                <p>Total: $<span id="total-price">0.00</span></p>
+                <button id="clear-cart">Clear Cart</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

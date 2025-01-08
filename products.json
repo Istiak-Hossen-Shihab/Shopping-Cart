@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Potato",
+        "description": "Fresh potato from Rangpur. Directly collected from farmers. 100% organic no chemical are used. Also paid a justified ammount to farmer. No third party were involved.",
+        "price": 10.99,
+        "image": "image/product1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung S24 Ultra",
+        "description": "This mobile phone is Singapur varient. Box and all nessesary paper will hand over to the customer.",
+        "price": 20.99,
+        "image": "image/product2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Combo package",
+        "description": "Two peice of high quality shirt and one paire of letaher shoes. It is a lim,ited time offer. Hurry up and grab the offer.",
+        "price": 15.49,
+        "image": "image/product3.jpg"
+    }
+]
